@@ -20,11 +20,11 @@
 </form>
 
 <?php
-// Replace with your DB credentials
-$host = "localhost";
-$username = "root";
+$port = 3306;
+$host = "sql1.njit.edu";
+$username = "";
 $password = "";
-$database = "your_database_name"; // Replace with your DB name
+$database = "Databases.sql";
 
 $conn = new mysqli($host, $username, $password, $database);
 
