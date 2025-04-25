@@ -20,10 +20,11 @@
 </form>
 
 <?php
+//include("database.php");
 $port = 3306;
 $host = "sql1.njit.edu";
-$username = "";
-$password = "";
+$username = "fag22";
+$password = "Mighty!Loud4";
 $database = "Databases.sql";
 
 $conn = new mysqli($host, $username, $password, $database);
