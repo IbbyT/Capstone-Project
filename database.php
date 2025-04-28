@@ -4,7 +4,7 @@
    $port = 3306;
    $dbname = "fag22";
    $username = "fag22";
-   $password = "";
+   $password = "Mighty!Loud4";
    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
    try {
        $db = new mysqli($host, $username, $password, $dbname, $port);
@@ -16,5 +16,5 @@
        echo $e->getMessage();
    }
  }
- getDB();
+ //getDB();
 ?>
